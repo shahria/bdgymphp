@@ -1,0 +1,84 @@
+*
+{
+    padding: 0px;
+    margin: 0px auto;
+}
+body
+{
+background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+ 
+}
+
+.header
+{
+    height: 120px;
+    background: rgba(0,0,0,1.00);
+    color: white;
+    border-bottom: thin solid red;
+    padding: 15px;
+}
+.footer
+{
+    height: 80px;
+    background: rgba(0,0,0,1.00);
+    color: white;
+    border-top: thin solid red;
+    padding: 15px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.main
+{
+    width: 1100px;
+    border: thin silver solid;
+}
+.menu
+{
+    height: auto;
+    overflow: visible;
+    background: white;
+}
+.content
+{
+    height: auto;
+    min-height: 500px;
+    padding: 15px;
+    background: white;
+    overflow: hidden;
+    padding-bottom: 160px;
+}
+.title
+{
+    font-size: 15px;
+    background: rgba(0,0,0,0.2);
+    color: maroon;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    margin: 5px;
+}
+ul
+{
+    list-style: circle;
+}
+ul li
+{
+    line-height: 25px;
+    font-size: 15px;
+}
+.error
+{
+    color: red;
+    font-weight: bolod;
+}
+.success
+{
+    color: green;
+    font-weight: bold;
+}
